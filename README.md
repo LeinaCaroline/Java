@@ -1,2 +1,2 @@
-# Objetivo desse repositó
+# Objetivo desse repositório
 Aqui vou postar meu aprendizado em JAVA

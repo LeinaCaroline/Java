@@ -1,1 +1,28 @@
 
+package Nova_Atv;
+
+public class Exceptions {
+
+	public static void main(String[] args) {
+		
+		try {
+			int [] vetor = new int [4];
+			
+			System.out.println("Antes do vetor ");
+			
+			vetor[4] = 1;
+			
+			System.out.println("Esse texto nao vai ser lido");
+		}catch(ArrayIndexOutOfBoundsException ler) {
+			System.out.println("Erro ao acessar um indice que nao existe");
+		}
+		
+		System.out.println("Texto impresso depois da exceptions ");
+		
+		
+		
+		
+		
+	}
+
+}
